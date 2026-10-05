@@ -15,6 +15,7 @@ no build step, no dependencies.
 | `paper.html` | Academic-style research paper on majors and player production (source in `paper.md`) |
 | `paper.pdf` | Academic-style PDF of the paper |
 | `build-pdf.sh` | Builds `paper.pdf` from `paper.md` with pandoc |
+| `REPORT.md` | Project report: what was built and the improvements made |
 | `history.html` | Program timeline, 14 conference titles, playoff history and notable alumni |
 | `gameday.html` | Panther Field, home dates, tailgating, directions and how to watch |
 | `404.html` | Custom not-found page for GitHub Pages |
