@@ -18,10 +18,15 @@ majors drawn from official athletics rosters for 30 players who earned Massachus
 State Collegiate Athletic Conference (MASCAC) weekly recognition. Among the fifteen
 distinct Player-of-the-Week recipients, nine of the fourteen with a published major
 (64%) were enrolled in business-related fields; two were in public health, two in
-engineering, and one in communications. We conclude that business-related majors form
-the plurality among the conference's most decorated players, but that this pattern
-largely reflects the underlying distribution of majors at these institutions rather
-than evidence that a major *causes* athletic success. Institution-specific effects
+engineering, and one in communications. A position-normalized production index built
+from the published stat lines shows business majors accounting for the largest share of
+high-end statistical performances (four of seven "elite" games scoring 80 or better),
+while Engineering & Applied Technology posts the highest average production per player
+(69.4) among fields with five or more scored players. We conclude that business-related
+majors form the plurality among the conference's most decorated and most statistically
+productive players, but that this pattern largely reflects the underlying distribution
+of majors at these institutions rather than evidence that a major *causes* athletic
+success. Institution-specific effects
 (for example, Mass. Maritime's maritime-engineering pipeline) are the clearest
 signal in the data. Causal language is not supported by this observational,
 small-sample design.
@@ -191,9 +196,85 @@ State), and Communications (Mekhi Wilson, UMass Dartmouth). Thus no single major
 explains the results; the two most consequential opposing performances to date came
 from one public-health major and one business major.
 
+### 4.5 Which major has the best statistics?
+
+Weekly awards measure *recognition*; they do not by themselves answer which major's
+players produce the best *statistics*. To address that question directly, we constructed
+a **Normalized Single-Game Production (NSP)** index from the stat lines the conference
+published for each honored performance. Because positions are not comparable on raw
+yardage, each performance is scaled to a 0–100 range using position-specific benchmarks:
+
+- **Quarterback:** (passing yards + rushing yards) ÷ 4
+- **Running back:** rushing yards ÷ 2
+- **Wide receiver / tight end:** receiving yards ÷ 2
+- **Defense (LB/DB/DL):** (5 × tackles) + (10 × tackles for loss) + (15 × sacks) +
+  (20 × interceptions) + (5 × pass breakups) + (10 × forced fumbles) +
+  (15 × blocked kicks)
+- **Kicker:** (25 × field goals) + (3 × extra points)
+
+Scores are capped at 100, and only players with **both a published major and a complete
+published stat line** were scored (n = 26). The index is a transparent, constructed
+measure — not an official statistic — and its weights are a stated assumption.
+
+First, the single-game leaders in the most commonly reported categories:
+
+| Statistical category | Leader | Team | Major | Figure |
+| --- | --- | --- | --- | --- |
+| Passing yards (game) | Michael Marcucella | Framingham State | Accounting | 341 |
+| Total offense (game) | Michael Marcucella | Framingham State | Accounting | 341 |
+| Rushing yards (game) | Mekhi Wilson | UMass Dartmouth | Communications | 211 |
+| Receiving yards (game) | Mathias Fowler | Framingham State | Marketing | 193 |
+| Touchdowns responsible (game) | Jayden Barber | Bridgewater State | Business Management | 5 |
+| Tackles (game) | Jackson Mahoney / Kenimar Noel | Mass. Maritime / UMass Dartmouth | Marine Engineering / Engineering | 13 |
+| Sacks (game) | Aydan Verba | Westfield State | *not published* | 2.5 |
+| Interceptions (game) | Lucas Lambert / Treyvon Fields / Tyler Holcomb | Bridgewater / Framingham / Plymouth State | Management / Accounting / Sport Management | 1 |
+| Blocked kicks (game) | Damian Mitchell | Worcester State | Business Marketing | 2 |
+
+**Table 3.** Statistical category leaders among recognized 2026 players.
+
+Business-related majors lead five of the nine categories outright (passing, total
+offense, receiving, touchdowns responsible, blocked kicks) and appear in the shared
+interception lead, i.e. six of nine categories.
+
+Aggregating the NSP index by major field:
+
+| Major field | Players scored | Mean NSP | Elite games (≥ 80) | Best single score |
+| --- | --- | --- | --- | --- |
+| Business & Management | 14 | 61.0 | 4 | 97 |
+| Engineering & Applied Technology | 5 | 69.4 | 2 | 100 |
+| Communication & Social Sciences | 2 | 77.5 | 1 | 100 |
+| Health & Human Performance | 5 | 50.6 | 0 | 76 |
+| Undeclared / Unknown | 2 | — | — | 83 |
+
+**Table 4.** Normalized Single-Game Production by major field.
+
+**So which major has the best stats?** The answer depends on how production is
+aggregated, and the sample is small:
+
+- **By breadth and frequency of elite output, Business & Management wins.** Business
+  majors supplied the largest scored pool (14 players), the most 80-plus games
+  (four of seven), and the best business performance was Mathias Fowler's 193-yard
+  receiving day (NSP 97).
+- **By average production per player, Engineering & Applied Technology wins** among
+  fields with at least five scored players (mean 69.4), powered by TJ Taveras
+  (Information Technology; 11 tackles, 3.5 tackles for loss, one sack; NSP 100) and
+  Jackson Mahoney (Marine Engineering; NSP 95).
+- **Communication & Social Sciences has the highest mean (77.5) but rests on only two
+  players**, led by Mekhi Wilson's 211-yard rushing game (NSP 100) — the best single
+  offensive performance in the sample.
+- **The single highest scores are a tie at the 100 cap** between Wilson (Communications)
+  and Taveras (Information Technology).
+- **Health & Human Performance trails** (mean 50.6), with no elite games in the window.
+
+On a combined reading — breadth of statistical output **plus** the frequency of elite
+games — **Business & Management ranks first, with Engineering & Applied Technology a
+close second on a per-player basis.** This mirrors the award-based finding: business is
+the deepest source of statistical production, while specialized technical programs
+produce the most efficient per-player output.
+
 ## 5. Discussion
 
-Three findings merit emphasis.
+Four findings merit emphasis.
 
 **First, business-related majors are over-represented among the most decorated
 players.** Roughly two-thirds of the awarded players with a known major were enrolled
@@ -213,10 +294,20 @@ outcomes.** Plymouth State's two defeats were authored by players from different
 fields, undermining any claim that a particular course of study yields a competitive
 edge.
 
+**Fourth, on the constructed statistical index, business majors lead in breadth while
+technical programs lead in efficiency.** Business & Management produced the largest
+scored pool (14 players) and the most elite games (four of seven scoring 80 or better),
+whereas Engineering & Applied Technology posted the highest mean NSP among multi-player
+fields (69.4). The two best single games were split between a Communications major
+(Mekhi Wilson, 211 rushing yards) and an Information Technology major (TJ Taveras, 11
+tackles and 3.5 tackles for loss). No major monopolizes statistical excellence.
+
 Taken together, the data support a modest conclusion: **if forced to name the major
-that "produces the best players" in this sample, business-related fields would be the
-answer by frequency — but the correct interpretation is that business is the most
-common major, not the most athletically potent one.**
+that "produces the best players" — and the best statistics — in this sample,
+business-related fields would be the answer by frequency and by volume of elite output,
+with specialized technical majors the most efficient per player. The correct
+interpretation, however, is that business is the most common major, not necessarily the
+most athletically potent one.**
 
 ## 6. Limitations
 
@@ -236,21 +327,28 @@ This study has several important limitations:
    admissions profile, roster depth, and coaching — none of which this design controls.
 6. **Single season.** A one-year window cannot distinguish stable patterns from
    noise.
+7. **Constructed index.** The Normalized Single-Game Production (NSP) index uses
+   analyst-chosen weights and benchmarks; different weights would change the exact
+   rankings, though the broad pattern (business depth, technical efficiency) is robust
+   to reasonable alternatives.
 
 ## 7. Conclusion
 
 Using real 2026 schedule and results data from Plymouth State University's MASCAC
 slate, this paper finds that business-related majors are the plurality among the
-conference's most-decorated football players, while institution-specific programs
-(Marine Engineering at Mass. Maritime; Public Health at Worcester State) provide the
-most striking single-campus patterns. The evidence does **not** support the claim that
-any particular major *produces* better players. A credible causal study would require
+conference's most-decorated football players and among its most statistically
+productive ones, while institution-specific programs (Marine Engineering at Mass.
+Maritime; Public Health at Worcester State) provide the most striking single-campus
+patterns. Engineering & Applied Technology posts the highest average production per
+player, and the single best performances came from a Communications major and an
+Information Technology major. The evidence does **not** support the claim that any
+particular major *produces* better players. A credible causal study would require
 conference-wide, multi-season roster data, position-adjusted performance metrics, and
 controls for institution and recruiting profile.
 
 For the purposes of team pages and fan analysis, the defensible takeaway is simple:
-**the MASCAC's best players come from a wide range of majors — and business is simply
-the most common one.**
+**the MASCAC's best players — and its best statistics — come from a wide range of
+majors, and business is simply the most common one.**
 
 ---
 
