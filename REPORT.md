@@ -177,7 +177,7 @@ most important improvements:
 
 Net change: roughly **2,000+ lines** added across the first site build alone, plus the
 opponent scouting report, the research paper (~280 lines of Markdown, ~355 lines of
-HTML), and the statistics section (~126 added lines) — all tracked across six commits.
+HTML), and the statistics section (~126 added lines) — all tracked in version control.
 
 ---
 
