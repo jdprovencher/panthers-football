@@ -116,6 +116,8 @@ img { max-width: 100%; display: block; }
 .btn-ghost:hover { background: rgba(255, 255, 255, 0.12); }
 .btn-light { background: #fff; color: var(--green-dark); }
 .btn-light:hover { background: #eafff1; }
+.btn-outline { border-color: var(--green); color: var(--green); background: #fff; }
+.btn-outline:hover { background: #eef7f0; }
 
 .text-link { font-weight: 700; font-size: 0.92rem; letter-spacing: 0.02em; }
 

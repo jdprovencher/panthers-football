@@ -13,6 +13,8 @@ no build step, no dependencies.
 | `team.html` | Coaching staff, players to watch and recent All-MASCAC honors |
 | `opponents.html` | Scouting report: one player to know from each 2026 opponent |
 | `paper.html` | Academic-style research paper on majors and player production (source in `paper.md`) |
+| `paper.pdf` | Academic-style PDF of the paper |
+| `build-pdf.sh` | Builds `paper.pdf` from `paper.md` with pandoc |
 | `history.html` | Program timeline, 14 conference titles, playoff history and notable alumni |
 | `gameday.html` | Panther Field, home dates, tailgating, directions and how to watch |
 | `404.html` | Custom not-found page for GitHub Pages |
@@ -46,6 +48,16 @@ Assets: `styles.css`, `script.js`, `favicon.svg`.
 
 Add a file named `CNAME` containing your domain (for example `panthers.example.com`)
 and configure the DNS record with your registrar.
+
+## Build the academic PDF
+
+`paper.pdf` is generated from `paper.md` with pandoc:
+
+```bash
+# requires pandoc and a LaTeX engine (tectonic or xelatex) on PATH
+./build-pdf.sh            # writes paper.pdf
+PDF_ENGINE=xelatex ./build-pdf.sh paper.pdf
+```
 
 ## Local preview
 
