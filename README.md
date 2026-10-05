@@ -12,6 +12,7 @@ no build step, no dependencies.
 | `schedule.html` | Full 2026 schedule with results and MASCAC notes |
 | `team.html` | Coaching staff, players to watch and recent All-MASCAC honors |
 | `opponents.html` | Scouting report: one player to know from each 2026 opponent |
+| `paper.html` | Academic-style research paper on majors and player production (source in `paper.md`) |
 | `history.html` | Program timeline, 14 conference titles, playoff history and notable alumni |
 | `gameday.html` | Panther Field, home dates, tailgating, directions and how to watch |
 | `404.html` | Custom not-found page for GitHub Pages |
@@ -65,6 +66,8 @@ python3 -m http.server 8000
 - **News cards:** swap the headline, date, summary and outbound link in `index.html`.
 - **Opponent blurbs:** edit the `.scout-card` entries in `opponents.html` as the season
   progresses. Each card names one opposing player, their role, and a season highlight.
+- **Research paper:** `paper.md` is the plain-text source; `paper.html` is the styled
+  web version. Update both if you revise the study.
 
 Prefer official sources for accuracy:
 [PSU Athletics — Football](https://athletics.plymouth.edu/sports/football).
